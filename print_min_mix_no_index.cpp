@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include <climits>;
+#include <climits>
 int main(){
     int marks[]={50,80,78,60,65};
     int size=5;
