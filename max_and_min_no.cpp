@@ -1,11 +1,8 @@
 #include<iostream>
-using namespace std; 
+using namespace std;
 
-int main(){
-    const int n=10;
-    int arr[n];
-
-    cout<<"Enter the elements\n";
+void maxmin(int arr[],int n){
+        cout<<"Enter the elements\n";
     for(int i=0; i<n; i++){
         cout<<"element =\n";
         cin>>arr[i];
@@ -24,5 +21,13 @@ int main(){
     }
     cout<<"Largest element="<<largest<<endl;
     cout<<"minemum element="<<min<<endl;
+}
+
+int main(){
+    const int n=10;
+    int arr[n];
+
+    maxmin(arr,n);
+
     return 0;
 }
