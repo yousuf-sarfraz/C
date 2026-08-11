@@ -5,12 +5,12 @@ int main(){
     int marks[]={50,80,78,60,65};
     int size=5;
     
-    int smallest= INT_MAX;
-    int maximem= INT_MIN;
-    int smallestindex=-1;
-    int maximemindex=1;
+    int smallest=marks[0];
+    int maximem=marks[0];
+    int smallestindex=0;
+    int maximemindex=0;
 
-    for(int i=0;i<size;i++)
+    for(int i=1;i<size;i++)
     {
         if(marks[i]<smallest)
         {
@@ -18,7 +18,7 @@ int main(){
             smallestindex=i;
         }
     }
-        for(int i=0;i<size;i++)
+        for(int i=1;i<size;i++)
     {
         if(marks[i]>maximem)
         {
