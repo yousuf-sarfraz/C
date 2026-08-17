@@ -5,7 +5,7 @@ class car{
 public:
     string brand;
     string model;
-    double year;
+    int year;
 
     void display(){
         cout<<"brand = "<<brand<<endl;

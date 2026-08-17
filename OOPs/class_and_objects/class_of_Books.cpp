@@ -5,7 +5,7 @@ class book{
 public:
     string title;
     string author;
-    double pages;
+    int pages;
     int price;
 
     void display(){
