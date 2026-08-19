@@ -9,9 +9,9 @@ class car{
         car(string brand, string model, int year)
             :brand(brand),model(model),year(year)
         {
-
         }
-        void display(){
+        void display()
+        {
             cout<<"brand = "<<brand<<endl;
             cout<<"model = "<<model<<endl;
             cout<<"year = "<<year<<endl;
