@@ -12,17 +12,20 @@ class books{
              author= "Unknown";
              price= 0;
         }
-        books(string t, string a){
+        books(string t, string a)
+        {
             title=t;
             author=a;
             price=0;
         }
-        books(string t, string a, int p){
+        books(string t, string a, int p)
+        {
             title=t;
             author=a;
             price=p;
         }
-        void display(){
+        void display()
+        {
             cout<<"Title = "<<title<<endl;
             cout<<"Author = "<<author<<endl;
             cout<<"Price = "<<price<<endl;
